@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行動電話使用意見調查表</title>
+</head>
+<body>
+    <h1>汽車意見調查表</h1>
+    <form action="/submit_survey" method="post">
+        <label for="email">電子郵件：</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="question1">你最常用車子做甚麼?</label><br>
+        <textarea id="question1" name="question1" rows="4" cols="50"></textarea><br><br>
+
+        <label for="staff">哪裡購入這輛車：</label>
+        <input type="text" id="staff" name="staff"><br><br>
+
+        <label for="flightNumber">你的名字：</label>
+        <input type="text" id="flightNumber" name="flightNumber"><br><br>
+
+
+        <label for="notification">需要備註甚麼嗎?
+        </label><br>
+        <textarea id="notification" name="notification" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="提交">
+        <input type="reset" value="確認">
+    </form>
+</body>
+</html>
